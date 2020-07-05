@@ -321,3 +321,44 @@ h2:after{
 .city-feature{
     margin-bottom: 5px;
 }
+
+
+/*-----TESTIMONIALS-------*/
+
+.section-testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    font-style: italic;
+    
+    
+}
+
+blockquote{
+    padding: 2%;
+    line-height: 145%;
+    position: relative;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite{
+    display: block;
+    margin-top: 25px;
+    font-size: 90%;
+}
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
