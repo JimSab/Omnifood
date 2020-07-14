@@ -198,6 +198,16 @@ h2:after{
     float: left;
     margin-top: 20px;
 }
+
+.logo-black{
+    display: none;
+    height: 50px;
+    width:auto;
+    float: left;
+    margin: 5px 0;
+}
+
+/*---------MAIN NAV ----------*/
 .main-nav{
     float: right;
     list-style: none;
@@ -211,6 +221,7 @@ h2:after{
 }
 
 .main-nav li a:link, .main-nav li a:visited {
+    padding: 8px 0;
     color: #fff;
     font-size: 90%;
     text-decoration: none;
@@ -225,6 +236,29 @@ h2:after{
     font-size: 90%;
     border-bottom: 2px solid #e67e22;
     padding-bottom: 2px;
+}
+
+
+/*------STICKY NAV------*/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 2px 2px #efefef;
+}
+.sticky .main-nav li a:link, 
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo-black{display: block;}
+.sticky .logo{display: none;}
+
+.sticky .main-nav{
+    margin-top: 18px;
 }
 
 /*------------MEALS-----------*/
