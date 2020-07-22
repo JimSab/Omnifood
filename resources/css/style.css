@@ -239,6 +239,14 @@ h2:after{
     padding-bottom: 2px;
 }
 
+/*------ICON NAV------*/
+.nav-icon{
+    float: right;
+    margin-top: 30px;
+    color: #fff;
+    display: none;
+
+}
 
 /*------STICKY NAV------*/
 .sticky{
@@ -567,10 +575,21 @@ footer p{
 .js--wp-2,
 .js--wp-3{
     opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 .js--wp-1.fadeIn,
 .js--wp-2.fadeInUp,
 .js--wp-3.fadeIn{
     opacity: 1;
+    transition-property: opacity;
+    animation-duration: 2s;
+}
+
+.js--wp-4
+
+{
+    animation-duration: 1s;
+    animation-delay: 1s;
 }

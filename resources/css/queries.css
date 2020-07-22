@@ -37,6 +37,32 @@
     .hero-text-box{padding: 0,4%;}
     .col{width: 100%; margin: 0 0 4% 0;}
     .main-nav{display: none;}
+    .main-nav,
+    .sticky .main-nav{
+        float: left;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .main-nav li{
+        display: block;
+        padding: 8px 0;
+    }
+    .main-nav li a:link,  
+    .main-nav li a:visited{
+        border: 0;
+    }
+    .nav-icon{
+        display: inline-block;
+    }
+    
+    .sticky .nav-icon{
+        color: #555;
+        margin-top: 15px;
+    }
+    .sticky .nav-icon a{
+        border: 0;
+    }
+    
     h1{font-size: 180%}
     h2{font-size: 150%}
     .long-copy{ 
